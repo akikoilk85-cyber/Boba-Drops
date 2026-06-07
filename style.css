@@ -1,0 +1,82 @@
+body{margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#111827;
+color:whitesmoke;
+}
+
+.top{text-align:center;
+    padding:120px 20px;
+    background:linear-gradient(135deg, #111827,#1f291f);
+}
+
+.top h1{font-size:55px;
+margin:bottom 10px;
+}
+
+.top p{color:#cbd5e1;
+font-size:18px;
+}
+
+.about,
+.skills,
+.projects-section{padding:50px 40px;
+}
+
+h2{margin-bottom:20px;
+}
+
+about p{max-width:700px;
+line-height:1.7;
+color:#d1d5db;
+}
+
+.skills{display:inline-block;
+background:#2563eb;
+padding:10px 18px;
+border-radius:20px;
+margin:5px;
+}
+
+.projects-section{display:flex;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.projects{background:#1f2937;
+padding:20px;
+border-radius:12px;
+margin-bottom:20px;
+transition:0.3s;
+width:300px;
+}
+
+.projects:hover{transform:translateY(-5px);
+}
+
+.projects h3,
+.projects h4,
+.projects h5{margin-top:0;
+    color:#60a5fa;
+}
+
+.projects p{color:#d1d5db;
+    line-height:1.6;
+}
+
+.links a{text-decoration:none;
+color:white;
+border:1px solid #2563eb;
+padding:10px 15p;
+border-radius:8px;
+margin-right:10px;
+display:inline-block;
+}
+
+.links a:hover{background:2563eb;
+}
+
+footer{text-align:center;
+padding:20px;
+background:#0b1120;
+color:#9ca3af;
+}
